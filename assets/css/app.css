@@ -35,23 +35,21 @@ body {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--dark-red);
-    color: var(--black);
+    background-color: var(--yellow);
+    color: var(--red);
 }
 
 .business-title {
     font-size: 40px;
-    margin: 0 !important;
-
+    margin-left: 25px;
 }
 .justfixit{
-
-    padding-left: 5%;
     font-family: 'Lobster', cursive;
+    margin-bottom: 0;
 }
 .phone{
-    padding-left: 5%;
     font-size: 1.0rem;
+    margin-bottom: 40px;
 }
 
 .navbar-links {
@@ -73,6 +71,7 @@ body {
     text-decoration: none;
     color: var(--black);
     padding: 1rem;
+    font-size: 18px;
 }
 
 .navbar-links li:hover {
@@ -82,7 +81,7 @@ body {
 
 .toggle-button {
     position: absolute;
-    top: .75rem;
+    top: 3.75rem;
     right: 1rem;
     display: none;
     flex-direction: column;
