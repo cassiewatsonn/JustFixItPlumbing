@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Kanit:ital@1&family=Lobster&display=swap');
+
+/* font-family: 'Alkatra', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Lobster', cursive; */
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --yellow: #FFE100;
+    --sunglow: #FFC917;
+    --red: #F00000;
+    --dark-red: #8C0000;
+    --black: #050505fc;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+    color: white;
+}
+
+.contact-us{
+    font-family: 'Alkatra', cursive;
+    text-align: center;
+    margin-top: 50px;
+}
